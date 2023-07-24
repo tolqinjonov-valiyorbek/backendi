@@ -11,7 +11,7 @@ app.use(express.json());
 
 app.use('/api/user', authRouter);
 app.use('/api/movies', movieRouter);
-app.use('/api/upload', UploadRouter)
+app.use('/api/upload', UploadRouter);
 //app.use(notFound)
 const PORT =  5000
 

@@ -14,20 +14,8 @@ const moviesSchema = mongoose.Schema({
         type:String,
         required: true,
     },
-    titleImage: {
-        type:String,
-        required: true,
-    },
     image: {
         type:String,
-        required: true,
-    },
-    year: {
-        type:Number,
-        required: true,
-    },
-    time: {
-        type:Number,
         required: true,
     },
     video: {
